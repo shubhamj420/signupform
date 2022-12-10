@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  body {
+    @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
+    font-family: "Inter", sans-serif;
+    background-color: black;
+    color: white;
+  }
+  p{
+    color: gray;
+    font-size: 15px;
+  }
+  .box {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 75%;
+    height: 70%;
+  }
+  header {
+    font-size: 6.4rem;
+    font-weight: 400;
+  }
+  form input {
+    background: transparent;
+    color: white;
+    border: none;
+  }
+  form {
+    font-size: 2.4rem;
+    font-weight: 300;
+    margin-top: 15px;
+  }
+  input[type="date"] {
+    color: transparent !important;
+  }
+  .active input[type="date"] {
+    color: inherit !important;
+  }
+  button {
+    width: 22.6rem;
+    height: 5.8rem;
+    background: #ffffff;
+    font-size: 2.4rem;
+    font-weight: 300;
+  }
+  hr {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
